@@ -1,0 +1,18 @@
+$kind: http-request
+url: http://localhost:3000/product
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \   \"ProductName\":\"milk\", \r
+
+    \   \"Price\":\"200\",\r
+
+    \    \"StockQuantity\":\"40\",\r
+
+    \   \"SupplierID\":\"4\"\r
+
+    }"
+settings: {}
+order: 3000

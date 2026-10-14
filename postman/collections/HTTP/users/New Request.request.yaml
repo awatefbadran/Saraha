@@ -1,0 +1,18 @@
+$kind: http-request
+url: http://localhost:3000/user
+method: GET
+body:
+  type: text
+  content: "{\r
+
+    \    \"id\": 5,\r
+
+    \    \"name\": \"tata5\",\r
+
+    \    \"age\": 25,\r
+
+    \    \"email\": \"tata5@gmail.com\"\r
+
+    \  }"
+settings: {}
+order: 3000

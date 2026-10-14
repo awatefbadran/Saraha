@@ -1,0 +1,18 @@
+$kind: http-request
+url: "{{baseUrl}}/posts"
+method: POST
+body:
+  type: formdata
+  content:
+    - type: text
+      key: body
+      value: Hello Route Academy! @ahmed_ali
+    - type: file
+      key: image
+      src: /Users/ahmedabdal-muti/Desktop/Screenshot 2026-01-21 at 6.34.47 AM.png
+auth:
+  type: bearer
+  credentials:
+    token: "{{token}}"
+settings: {}
+order: 3000

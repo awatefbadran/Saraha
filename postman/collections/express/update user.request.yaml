@@ -1,0 +1,8 @@
+$kind: http-request
+url: http://localhost:3000/user/4
+method: PATCH
+body:
+  type: json
+  content: "{\r\n    \"age\":40\r\n \r\n}"
+settings: {}
+order: 2000

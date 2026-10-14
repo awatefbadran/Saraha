@@ -1,0 +1,17 @@
+$kind: http-request
+url: http://localhost:3000/signup
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\":\"tataa\" ,\r
+
+    \  \"email\":\"tata3@gmail.com\",\r
+
+    \  \"password\": \"1234567\",\r
+
+    \ \"role\":\"user\"\r
+
+    }"
+order: 1000

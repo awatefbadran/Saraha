@@ -1,0 +1,18 @@
+$kind: http-request
+url: http://localhost:3000/sales/2
+method: GET
+body:
+  type: text
+  content: "{\r
+
+    \   \"ProductName\":\"milk\", \r
+
+    \   \"Price\":\"200\",\r
+
+    \    \"StockQuantity\":\"40\",\r
+
+    \   \"SupplierID\":\"3\"\r
+
+    }"
+settings: {}
+order: 3000

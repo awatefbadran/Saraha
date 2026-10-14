@@ -1,0 +1,9 @@
+$kind: http-request
+url: "{{baseUrl}}/notifications/{{notificationId}}/read"
+method: PATCH
+auth:
+  type: bearer
+  credentials:
+    token: "{{token}}"
+settings: {}
+order: 3000

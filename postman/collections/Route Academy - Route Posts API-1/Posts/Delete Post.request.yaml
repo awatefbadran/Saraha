@@ -1,0 +1,9 @@
+$kind: http-request
+url: "{{baseUrl}}/posts/{{postId}}"
+method: DELETE
+auth:
+  type: bearer
+  credentials:
+    token: "{{token}}"
+settings: {}
+order: 7000

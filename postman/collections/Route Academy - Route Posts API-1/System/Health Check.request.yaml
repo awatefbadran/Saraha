@@ -1,0 +1,6 @@
+$kind: http-request
+description: Simple endpoint to verify server is running.
+url: "{{baseUrl}}/"
+method: GET
+settings: {}
+order: 1000

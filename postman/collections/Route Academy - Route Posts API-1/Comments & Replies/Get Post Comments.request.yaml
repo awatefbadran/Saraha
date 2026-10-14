@@ -1,0 +1,12 @@
+$kind: http-request
+url: "{{baseUrl}}/posts/{{postId}}/comments?page=1&limit=10"
+method: GET
+queryParams:
+  page: "1"
+  limit: "10"
+auth:
+  type: bearer
+  credentials:
+    token: "{{token}}"
+settings: {}
+order: 1000

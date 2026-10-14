@@ -1,0 +1,10 @@
+$kind: http-request
+name: Like/Unlike Post
+url: "{{baseUrl}}/posts/{{postId}}/like"
+method: PUT
+auth:
+  type: bearer
+  credentials:
+    token: "{{token}}"
+settings: {}
+order: 8000

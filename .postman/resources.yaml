@@ -1,0 +1,18 @@
+workspace:
+  id: abbd6cb9-aeed-4c2e-81eb-d8b130e106b8
+cloudResources:
+  collections:
+    ../postman/collections/MongoDB: 38958111-68c4f7a5-e811-4d42-bbd1-4c54751d3dd5
+    ../postman/collections/Saraha: 38958111-c739cd66-7d37-46aa-b21e-0f47afa9ed19
+    ../postman/collections/Mongoos: 38958111-50913b7f-3b59-43a3-8843-ec348973de61
+    ../postman/collections/Sequalize: 38958111-0480bf50-85b0-479c-a5e7-93a63ee45948
+    ../postman/collections/SQL: 38958111-80059bc9-5e76-4d02-ac56-4623af27d193
+    ../postman/collections/express: 38958111-31787bda-8cb9-4d64-9a1e-9ff3505f9e81
+    ../postman/collections/HTTP: 38958111-71a80dd2-1c52-4a63-83aa-8a338db8b60c
+    ../postman/collections/Route Academy - Route Posts API: 38958111-a11bb313-18a3-4037-97fa-267d26b4888e
+    ../postman/collections/Route Academy - Route Posts API-1: 38958111-b2f3912d-cac3-4a2d-af27-d17e4624a527
+    ../postman/collections/tata: 38958111-ea1373e5-6927-4a2f-950a-c1773c236999
+  environments:
+    ../postman/environments/saraha_env.environment.yaml: 38958111-73eca81f-33d9-4cfe-9df9-9b4c03a590a3
+    ../postman/environments/Route Academy - Route Posts Environment.environment.yaml: 38958111-bfca4a38-a5e6-4ed0-bbe0-ecc984413e8d
+    ../postman/environments/Route Academy - Route Posts Environment-1.environment.yaml: 38958111-c474d973-1af7-42c9-ad24-69b04cffb91c

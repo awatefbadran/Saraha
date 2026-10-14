@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:3000/products/add-category
+method: POST
+body:
+  type: json
+  content: ""
+order: 2000

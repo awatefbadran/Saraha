@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:3000/products/product-name-not-null
+method: PUT
+order: 6000

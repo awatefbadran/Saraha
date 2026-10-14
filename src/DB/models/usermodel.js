@@ -1,4 +1,5 @@
 import mongoose from "mongoose"
+import { GenderEnum, ProviderEnum, RoleEnum } from "../../common/enum/user.enum.js"
 
 const userSchema =new mongoose.Schema({
     fname:{type:String,
@@ -15,7 +16,7 @@ const userSchema =new mongoose.Schema({
      require:true,
         trim:true,
         unique:true,
-        toLowerCase:true
+      
         
     },
      password:{type:String,
@@ -26,17 +27,23 @@ const userSchema =new mongoose.Schema({
         minlength:2,
         maxlength:10,
         trim:true
+    },role:{
+          type:String,
+        enum:Object.values(RoleEnum),
+           default:RoleEnum.user,
     },
       
     gender:{
         type:String,
-        enum:["male","female"],
-        default:"female"},
+        enum:Object.values(GenderEnum),
+        default:GenderEnum.female
+    },
 
         provider:{ 
             type:String,
-        enum:["system","google"],
-        default:"system"},
+        enum:Object.values(ProviderEnum),
+        default:ProviderEnum.system
+    },
     
         isconfermed:{
             type:Boolean,
