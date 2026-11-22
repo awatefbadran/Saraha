@@ -1,6 +1,6 @@
 import { compareSync, hashSync } from "bcrypt"
 
-export const hash=async(plainText,SALT_ROUNDS=12)=>{
+export const Hash=async(plainText,SALT_ROUNDS=12)=>{
   return await  hashSync(plainText,SALT_ROUNDS)
 }
 

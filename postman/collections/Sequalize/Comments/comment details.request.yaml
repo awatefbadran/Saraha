@@ -1,4 +1,0 @@
-$kind: http-request
-url: http://localhost:3000/comments/details/8
-method: GET
-order: 6000

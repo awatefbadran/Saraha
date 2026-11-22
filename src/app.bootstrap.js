@@ -2,9 +2,12 @@ import express from 'express'
 import { connectionDB } from './DB/connectionDB.js'
 import userModel from './DB/models/usermodel.js'
 import { userRouter } from './module/user.controller.js'
+import cors from "cors";
 const app =express()
  const port =3000
-
+ app.use(cors({
+  origin: "http://localhost:5173",
+}));
  const bootstrap =async()=>{
     app.use(express.json())
     app.get("/",(req,res)=>
@@ -27,5 +30,4 @@ app.use((err, req, res, next) => {
 
     app.listen(port,()=> console.log(`Example app listhen on port ${port}`))
  }
-
  export default bootstrap

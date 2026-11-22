@@ -1,9 +1,0 @@
-$kind: http-request
-url: "{{baseUrl}}/users/bookmarks"
-method: GET
-auth:
-  type: bearer
-  credentials:
-    token: "{{token}}"
-settings: {}
-order: 6000

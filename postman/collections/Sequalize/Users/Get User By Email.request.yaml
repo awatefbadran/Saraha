@@ -1,9 +1,0 @@
-$kind: http-request
-url: http://localhost:3000/userbyemail?email=tata400@gmail.com
-method: GET
-queryParams:
-  email: tata400@gmail.com
-body:
-  type: json
-  content: ""
-order: 3000

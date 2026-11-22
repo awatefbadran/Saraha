@@ -1,9 +1,0 @@
-$kind: http-request
-url: "{{baseUrl}}/posts/{{postId}}"
-method: GET
-auth:
-  type: bearer
-  credentials:
-    token: "{{token}}"
-settings: {}
-order: 4000

@@ -1,4 +1,0 @@
-$kind: http-request
-url: http://localhost:3000/suppliers/change-contact-number
-method: PUT
-order: 5000

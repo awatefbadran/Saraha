@@ -1,6 +1,0 @@
-$kind: http-request
-url: http://localhost:3000/comments/search?word=comment
-method: GET
-queryParams:
-  word: comment
-order: 4000

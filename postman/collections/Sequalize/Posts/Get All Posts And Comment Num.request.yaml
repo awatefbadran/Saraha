@@ -1,4 +1,0 @@
-$kind: http-request
-url: http://localhost:3000/postswithcommentcunt
-method: GET
-order: 4000

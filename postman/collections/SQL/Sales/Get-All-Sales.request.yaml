@@ -1,5 +1,0 @@
-$kind: http-request
-url: http://localhost:3000/sales
-method: GET
-settings: {}
-order: 2000
